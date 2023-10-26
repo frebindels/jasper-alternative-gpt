@@ -43,6 +43,40 @@ export const TEMPLATES: Template[] = [
                 placeholder: "Select a tone. For example: Witty, Friendly, Disappointed, Polite, Creative, Professional or a known person such as Michael Jordan",
                 type: "text",
             },
+            {
+                id: "fav-color",
+                label: "Favorite Color",
+                placeholder: "Tell us your favorite color, blue purple red or yellow what do you fancy?",
+                type: "text",
+            },
+        ]
+    },
+    {
+        "id": "a6dc-0f21-c102-6c22",
+        "title": "Amazon Sex Toy Description (paragraph)",
+        "description": "Create compelling product descriptions for your favorite naughty stuff.",
+        "command": "Create compelling product descriptions for Amazon listings.",
+        "icon": `<i class="fab fa-aws text-primary"></i>`,
+        "categories": ["ecommerce", "ads"],
+        inputs: [
+            {
+                id: "product-name",
+                label: "Product Name",
+                placeholder: "A red t-shirt",
+                type: "text",
+            },
+            {
+                id: "key-features",
+                label: "Key Features/Benefits",
+                placeholder: "Stretching, pleasant",
+                type: "textarea",
+            },
+            {
+                id: "tone-of-voice",
+                label: "Tone of Voice",
+                placeholder: "Select a tone. For example: Witty, Friendly, Disappointed, Polite, Creative, Professional or a known person such as Michael Jordan",
+                type: "text",
+            },
         ]
     },
     {
