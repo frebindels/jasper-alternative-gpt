@@ -17,9 +17,7 @@ export const SIDEBAR_ITEMS: any = [
 const Layout: React.FC<Props> = ({ children, title }) => {
     const [showPopup, setShowPopup] = useState(false);
 
-    const handlePopup = () => {
-        setShowPopup(!showPopup);
-    }
+    
     return (
         <Fragment>
             <div className="relative w-full min-h-screen md:flex md:flex-row">
