@@ -19,7 +19,7 @@ export type Template = {
 export const TEMPLATES: Template[] = [
     {
         "id": "a6dc-0f21-c102-6c22",
-        "title": "Amazon Product Description (paragraph)",
+        "title": "Amazon Product sfsdf Description (paragraph)",
         "description": "Create compelling product descriptions for Amazon listings.",
         "command": "Create compelling product descriptions for Amazon listings.",
         "icon": `<i class="fab fa-aws text-primary"></i>`,
