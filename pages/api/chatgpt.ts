@@ -22,7 +22,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         const mainGoal = template.command;
 
         const messages = [
-            { role: "system", content: "You are a helpful assistant." },
+            { role: "system", content: "You are a  helpful assistant." },
             { role: "user", content: `Your task is: "${mainGoal}".\n\nHere are the details:\n${instruction}. 
             Please suggest 3 outputs. number them 1,2,3` },
         ];
