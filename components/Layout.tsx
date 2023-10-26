@@ -1,5 +1,4 @@
 import React, {Fragment, useState} from "react";
-import Sidebar from "./Sidebar";
 import GoProPopup from "./GoproPopup";
 
 interface Props {
