@@ -19,17 +19,17 @@ export type Template = {
 export const TEMPLATES: Template[] = [
     {
         "id": "a6dc-0f21-c102-6c22",
-        "title": "Amazon Product Description (paragraph)",
-        "description": "Create compelling product descriptions for Amazon listings.",
-        "command": "Create compelling product descriptions for Amazon listings.",
-        "icon": `<i class="fab fa-aws text-primary"></i>`,
-        "categories": ["ecommerce", "ads"],
+        "title": "Listing Description",
+        "description": "Create compelling descriptions for your listings.",
+        "command": "Create compelling descriptions for home listings.",
+        "icon": `<i class="fas fa-house-user	 text-primary"></i>`,
+        "categories": ["home", "ads"],
         inputs: [
             {
-                id: "product-name",
-                label: "Product Name",
-                placeholder: "A red t-shirt",
-                type: "text",
+                id: "listing-address",
+                label: "Listing Address",
+                placeholder: "123 Main Street",
+                type: "text",   
             },
             {
                 id: "key-features",
@@ -43,12 +43,7 @@ export const TEMPLATES: Template[] = [
                 placeholder: "Select a tone. For example: Witty, Friendly, Disappointed, Polite, Creative, Professional or a known person such as Michael Jordan",
                 type: "text",
             },
-            {
-                id: "fav-color",
-                label: "Favorite Color",
-                placeholder: "Tell us your favorite color, blue purple red or yellow what do you fancy?",
-                type: "text",
-            },
+           
         ]
     },
     {

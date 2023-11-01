@@ -32,7 +32,7 @@ const TemplateHeader: React.FC<TemplateHeaderProps> = ({title, description, icon
         <div className='m-4'>
         <button 
       onClick={() => router.back()} 
-      className="w-20 h-10 font-bold text-white bg-red-600 hover:bg-red-700 rounded-3xl"
+      className="w-20 h-10 font-bold text-white bg-[#dc3527] hover:bg-red-700 rounded-3xl"
     >
       Go Back
     </button>
